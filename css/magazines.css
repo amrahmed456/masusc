@@ -1,0 +1,32 @@
+.top-hero{
+	background:url("../imgs/many-books-piles_127657-4998.png") no-repeat center center;
+	background-size:cover;
+	padding:140px 0px;
+	color:#FFF
+}
+.main{
+	background-color:#071131
+}
+.main .img-cont{
+	overflow:hidden;
+	border-radius:5px;
+	border: 2px solid #0f1e4e;
+	transition:.5s;
+	box-shadow: 2px 4px 12px #000;
+}
+.main .img-cont:hover{
+	transition:.5s;
+	box-shadow:0px 0px 0px #000
+}
+.main .img-cont:hover img{
+	transition:.7s;
+	transform:scale(1.1);
+}
+.main .magazine img{
+	height:320px;
+	transition:.3s;
+	width: 100%;
+}
+.subscribe{
+	background:#841b1d
+}

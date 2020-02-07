@@ -1,0 +1,215 @@
+body{
+	background:#f6f6f6
+}
+
+.lead{
+	font-size: 19px;
+color: #737373;
+line-height: 23px;
+}
+
+.top-hero{
+	padding:120px 0px;
+	position:relative;
+	color:white;
+	background-size:100% 100%;
+	margin-bottom:100px;
+	background-size: cover;
+}
+.top-hero h1{
+	display: inline;
+background: rgba(250,250,250,0.8);
+padding: 7px 33px;
+border-radius: 3px;
+color: black;
+text-align: center;
+box-shadow: 0px 0px 11px #1E1E1E;
+}
+.overlay{
+	position:absolute;
+	top:0px;
+	width:100%;
+	height:100%;
+	background:rgba(174, 19, 19, 0.27)
+}
+
+
+.event-full{box-shadow: 0px 0px 25px #e6e6e6;}
+.event-full .imgs-slider{
+	overflow:hidden;
+	border-radius:7px 7px 0px 0px;
+	overflow:hidden;
+	background:white;
+}
+
+.event-full .event-talk{
+	background:white;
+	padding: 59px 35px;
+	border-radius:0px 0px 7px 7px;
+	border:1px solid #EEE;
+	border-top:none;
+	margin-bottom:30px;
+	padding-bottom: 24px;
+}
+.event-full .topics-discuessed{margin-top:60px;margin-bottom:60px;}
+.event-full .topics-discuessed h3,.event-full .share h3{color:#808080}
+.event-full .topics-discuessed span{
+	padding:5px 11px;
+	background:#EAEAEA;
+	color:#888;
+	text-transform: uppercase;
+font-size: 12px;
+font-weight: 600;
+border: 1px solid #DDD;
+margin-bottom:5px;
+display:inline-block
+}
+.event-full .share li{
+	display:inline-block;
+	margin-right:15px;
+}
+.event-full .share li span{
+	width:40px;
+	height:40px;
+	border-radius:50%;
+	background:#a9a8b3;
+	font-size: 1.077rem;
+	color:white;
+	cursor:pointer;
+	transition:0.4s;
+	margin-bottom:5px;
+display:inline-block
+}
+.event-full .share li span:hover{
+	background:#2168a4
+}
+
+
+.speakers {
+	background:white;
+	border-radius:3px;
+	margin-bottom:35px;
+	border:1px solid #EEE
+}
+
+.speakers h2{
+	color:#e6595c;
+	margin-bottom:30px;
+}
+
+.speakers .speaker{
+	border-radius:3px;
+	overflow:hidden;
+	height:300px;
+	color:white;
+	position:relative;
+	margin-bottom:25px
+}
+.speakers .speaker .overlay{
+	padding: 34px 21px;
+	background:linear-gradient(0deg , rgba(0,0,0,0) , rgba(0,0,0,.5));
+	transition:.5s
+}
+.speakers .speaker .overlay span{display:none}
+.speakers .speaker .overlay h3,.speakers .speaker .overlay p{text-transform: uppercase;}
+
+.speakers .speaker .overlay h3{
+		background: white;
+color: black;
+display: inline-block;
+padding: 1px 20px;
+font-style: italic;
+margin-bottom: 0px;
+}
+.speakers .speaker .overlay:hover{
+	background:linear-gradient(0deg , rgba(0,0,0,.2) , rgba(0,0,0,.7));
+}
+.speakers .speaker .overlay:hover span{display:block}
+.speakers .speaker img{
+	width:100%;
+	height:100%;
+	border-radius:5px;
+}
+.comment-box-form{
+	background: white;
+padding: 60px 23px;
+border: 1px solid #EEE;
+border-radius: 4px;
+margin-bottom:80px
+}
+.comment-box-form .form-row .col{margin-bottom:15px}
+.comment-box-form h3{
+	padding-bottom:20px
+}
+
+
+
+.event-detail,.sponsores {
+	background:white;
+	margin-bottom:30px;
+	border-radius:3px;
+	border:1px solid #EEE;
+	box-shadow:0px 0px 20px #EEE
+}
+.card-top{padding: 30px 30px 25px;border-bottom:1px solid #DDD}
+.card-top h3{color:#626262}
+.card-top span{
+	padding:7px 12px;
+	border:1px solid #DDD;
+	border-radius:3px;
+	color:#888888;
+	cursor:pointer;
+}
+.event-detail .card-top span:hover{
+	border:1px solid #ca0a0a;
+	color:#ca0a0a
+}
+
+.event-detail ul{
+	padding:10px 30px
+}
+.event-detail ul li{
+	border-bottom:1px solid #EEE;
+	padding:25px 0px
+}
+.event-detail ul li:last-child{border-bottom:none}
+.event-detail ul li .icon{
+	color:#c49191;
+	margin-right:25px
+}
+.event-detail ul li p{margin-bottom:0px}
+.event-detail ul li p.inf{font-weight:bold;text-transform: uppercase;font-size:14px}
+
+.sponsores{
+	padding-bottom:25px
+}
+.sponsores .container{padding-top:25px}
+.sponsores .sponser{
+	height:120px;
+	padding:25px 12px;
+	border:1px solid #DDD;
+	overflow:hidden;
+	margin-bottom:15px
+}
+.sponsores .sponser img{width:100%;height:90px}
+
+
+.subscribe{background:linear-gradient(90deg , #313057 , #2f2948);}
+.prev-events{
+	background:url("../imgs/related-events.jpg") no-repeat center center fixed;
+	background-color: #141c46;
+}
+.prev-events .event-details{
+	border:none;
+	background:transparent;
+	color:white
+}
+.event-cnt:hover{
+	box-shadow:none
+}
+.font {
+    color: #c8c8c8;
+}
+.upcoming-events .lead, .prev-events .lead{color:white}
+.upcoming-events .icons span{color:white}
+.event-thumb{border-radius:5px}

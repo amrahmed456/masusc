@@ -1,0 +1,5 @@
+User-Agent: *
+Disallow: 
+Allow: /http://www.masusc.com/
+
+Sitemap: http://masusc.com/sitemap.xml

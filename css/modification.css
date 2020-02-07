@@ -1,0 +1,47 @@
+a{color:black}
+a:hover{color:black;text-decoration:none}
+.btn{
+	padding:0.575rem 1.1rem;
+	transition:.4s
+}
+.btn-primary{
+	background-color: #e6595c;
+	border-color: #e6595c;
+}
+.btn-info{
+	background-color: transparent;
+	border-color: white;
+	border:2px solid white
+}
+.btn-info:hover{
+	color:black;
+	background-color: white;
+	border-color: white;
+}
+.btn-primary:hover{
+	background-color: #cc3437;
+	border-color: #e6595c;
+}
+.btn-primary.focus, .btn-primary:focus, .btn-info.focus, .btn-info:focus {
+    box-shadow:none
+}
+.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show > .btn-primary.dropdown-toggle {
+    background-color: #cc3437;
+	border-color: #e6595c;
+}
+.btn-primary:not(:disabled):not(.disabled).active:focus, .btn-primary:not(:disabled):not(.disabled):active:focus, .show > .btn-primary.dropdown-toggle:focus, .btn-info:not(:disabled):not(.disabled).active:focus, .btn-info:not(:disabled):not(.disabled):active:focus, .show > .btn-info.dropdown-toggle:focus {
+    box-shadow:none
+}
+.rounder-btn{padding:0.575rem 3rem;border-radius:40px;transition:.5s}
+.rounder-btn:hover{box-shadow: 0 22px 45px 0 rgba(0,0,0,.2);transform:translateY(-5px)}
+.btn-danger{
+	background: linear-gradient(to left,#ff2e41 0,#fa2e76 79%,#f42dab 100%);
+	border:none;
+	transition:.3s
+}
+.btn-danger:hover{
+	background: linear-gradient(160deg,#ff2e41 0,#fa2e76 79%,#f42dab 100%);
+}
+.bg-primary{
+	background:#6ff3c4 !important
+}

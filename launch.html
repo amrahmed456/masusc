@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>MA SUSC LAUNCHING SOON...</title>
+		<meta name="description" content="MA is a student program created for undergraduate & graduate students enrolled in materials science, engineering and other technical 
+engineering programs at universities around the world to combine the individual 
+benefits of four societies into one great advantage to students.
+(ACerS,AIST,ASM,TMS)/>
+		<meta rel="icon" href="imgs/ma-logo.png" />
+		<meta name="keywords" content="MASUSC,suez,university,student,chapter,activity,international,events,spectrum" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta charset="UTF-8" />
+		
+		<link rel="stylesheet" href="css/bootstrap.min.css" />
+		<link href="https://fonts.googleapis.com/css?family=Fjalla+One&display=swap" rel="stylesheet">
+		
+		
+		<style>
+			body{
+				background: linear-gradient(90deg , #f7e4db , #f4f9df);
+			}
+			.container{
+				padding: 20px;
+				background:#FFF;
+				box-shadow: 4px 4px 15px #EEE;
+				border-radius:5px
+			}
+			.font{font-family: 'Fjalla One', sans-serif;}
+			.text{text-align:right}
+			@media(max-width:600px){
+				.text{text-align:center}
+				.container{height:100%}
+			}
+	
+		</style>
+	</head>
+	
+	<body>
+		
+		
+		<div class="full-screen d-flex justify-content-center align-items-center">
+			<div class="container">
+				<div class="row">
+				
+					<div class="col-12 col-md-6">
+						<div class="d-flex align-items-center" style="height:100%">
+							<div class="text container-fluid">
+								<img src="imgs/ma-logo.png" class="img-fluid mb-4" style="width:165px"/>
+								<h1 class="font">WE'RE LAUNCHING SOON...</h1>
+								<p class="lead">stay tuned for the launch, we are launching something special.</p>
+							</div>
+						</div>
+					</div>
+					
+					<div class="col-12 col-md-6">
+						<div class="d-flex justify-content-center align-items-center">
+							<img src="imgs/launch.png" class="img-fluid" />
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script src="js/jquery-3.3.1.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script>
+			$(document).ready(function(){
+				var winH = $(window).innerHeight();
+				$(".full-screen").css("height" , winH);
+				$(window).resize(function(){
+					winH = $(window).innerHeight();
+					$(".full-screen").css("height" , winH);
+				})
+			});
+			
+			
+		
+		</script>
+</body>
+</html>

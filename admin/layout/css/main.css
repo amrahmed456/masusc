@@ -1,0 +1,160 @@
+body{
+	background:#f5f5f5;
+}
+.asterisk{
+	font-size: 20px;
+	position: absolute;
+	right: 27px;
+	top: 5px;
+	color: #e1348d;
+}
+/* general rules */
+.btn-primary{
+	background-color: #407ec2;
+}
+.btn-primary:hover{
+	background-color: #0068d7;
+}
+
+
+.login h2{
+	color: #8f8f8f;
+}
+.login{
+	width:50%;
+	margin:80px auto
+}
+.login input{
+	margin-bottom:15px;
+	background:#EEE
+}
+
+/* bootstrap edit */
+.bg-light {
+    background-color: #fff !important;
+}
+.navbar-light .navbar-nav #navbarDropdown{background:#EEE !important}
+
+.form-control{position:relative}
+a:hover{color: white;
+text-decoration: none;}
+/* bootstrap edit */
+
+/* dashboard section */
+.stats{
+	border-radius:7px;
+	padding: 20px 0px;
+	color:white
+}
+.stats h3{
+	font-size:50px
+}
+
+.st-members{
+	background:#E91E63
+}
+.st-pending{
+	background:#03A9F4
+}
+.st-items{
+	background:#00BCD4
+}
+.st-comments{
+	background:#009688
+}
+/* end dashboard section */
+
+/* add page in users file */
+.add-button{
+	bottom: 6%;
+	right: 5%;
+	width: 50px;
+	height: 50px;
+	border-radius: 20%;
+	box-shadow:2px 3px 4px #b5b5b5;
+	color: white;
+	background: #5555f9;
+	font-size: 25px;
+	cursor: pointer;
+	border:2px solid white;
+	transition:.4s;
+	padding-bottom: 4px;
+	z-index:99
+}
+.add-button:hover{
+	border-radius: 50%;
+}
+.table .pending-member{
+	background:#d5d5ff  !important
+}
+.list-group-flush .list-group-item:nth-of-type(odd){
+	background:#EEE
+}
+/* end add page in users file */
+
+/* start categories page */
+.card{overflow:hidden}
+.card-info{
+	padding-bottom:15px;
+	padding-top:15px;
+	border-bottom:1px solid #EEE;
+	position:relative;
+	padding:1.25rem;
+}
+
+.card-info .btn-options{
+	position:absolute;
+	top:15px;
+	right:-185px;
+	transition:.5s
+}
+.card-info:hover .btn-options{right:5px}
+.card-info:hover{background:#EEE}
+.card-info .info{
+	padding:5px 12px;
+	border-radius:5px;
+	margin-left:12px;
+	color:white
+}
+.card-info .visiability-cat{background:#777}
+.card-info .cmnts-cat{background:#6c6cff}
+.card-info .ads-cat{background:#ff6e6e}
+.card-body{ padding: 0rem}
+.expand,.cat_card{cursor:pointer}
+.expand{color:grey}
+.expand:hover{color:black}
+.card-title{font-weight:bold;color: #6d6d6d;}
+/* end categories page */
+
+/* start items page */
+.dollar-sign{
+right: 15px;
+top: 0px;
+background: #f0f0f0;
+width: 9%;
+padding: 5px 9px;
+border-radius: 3px;
+border: 2px solid #EEE;
+text-align: center;
+z-index: 1;
+}
+.cat-result{
+	z-index: 2;
+background: white;
+width: 96%;
+box-shadow: 2px 4px 7px #D9D9D9;
+}
+.cat-result p{
+	border-bottom:1px solid #EEE;
+	padding: 6px 0px 6px 15px;
+	margin-bottom:0px
+}
+.cat-result p:hover{
+	background:#EEE;
+	cursor:pointer
+}
+.cat-result p.hovered{
+	background:#EEE
+}
+
+/* end items page */
