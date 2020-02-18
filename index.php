@@ -86,7 +86,7 @@
 					<div class="owl-carousel owl-committe owl-theme">
 						
 						<div class="item">
-							<a href="members.php?c=academy">
+							<a href="team.php?c=academy">
 								<div class="item-commit">
 									<div class="pic-comi">
 										<img src="imgs/commit1.jpg">
@@ -100,7 +100,7 @@
 						</div>
 						
 						<div class="item">
-							<a href="members.php?c=oc">
+							<a href="team.php?c=oc">
 								<div class="item-commit">
 									<div class="pic-comi">
 										<img src="imgs/commit2.jpg">
@@ -114,7 +114,7 @@
 						</div>
 						
 						<div class="item">
-							<a href="members.php?c=pr">
+							<a href="team.php?c=pr">
 								<div class="item-commit">
 									<div class="pic-comi">
 										<img src="imgs/commit4.jpg">
@@ -128,7 +128,7 @@
 						</div>
 						
 						<div class="item">
-							<a href="members.php?c=hr">
+							<a href="team.php?c=hr">
 								<div class="item-commit">
 									<div class="pic-comi">
 										<img src="imgs/commit5.jpg">
@@ -142,7 +142,7 @@
 						</div>
 						
 						<div class="item">
-							<a href="members.php?c=db">
+							<a href="team.php?c=db">
 								<div class="item-commit">
 									<div class="pic-comi">
 										<img src="imgs/commit6.jpg">
@@ -156,7 +156,7 @@
 						</div>
 						
 						<div class="item">
-							<a href="members.php?c=dev">
+							<a href="team.php?c=dev">
 								<div class="item-commit">
 									<div class="pic-comi">
 										<img src="imgs/commit6.jpg">
@@ -171,7 +171,7 @@
 						
 						
 						<div class="item">
-							<a href="members.php?c=multi">
+							<a href="team.php?c=multi">
 								<div class="item-commit">
 									<div class="pic-comi">
 										<img src="imgs/commit6.jpg">
@@ -185,7 +185,7 @@
 						</div>
 						
 						<div class="item">
-							<a href="members.php?c=social">
+							<a href="team.php?c=social">
 								<div class="item-commit">
 									<div class="pic-comi">
 										<img src="imgs/commit3.jpg">
@@ -199,7 +199,7 @@
 						</div>
 						
 						<div class="item">
-							<a href="members.php?c=it">
+							<a href="team.php?c=it">
 								<div class="item-commit">
 									<div class="pic-comi">
 										<img src="imgs/commit1.jpg">
@@ -213,7 +213,7 @@
 						</div>
 						
 						<div class="item">
-							<a href="members.php?c=secr">
+							<a href="team.php?c=secr">
 								<div class="item-commit">
 									<div class="pic-comi">
 										<img src="imgs/commit1.jpg">
@@ -403,7 +403,7 @@
 								<div class="all-team">
 									<h2 class="font">WE'RE ALL LEADERS</h2>
 									<p class="text-left">every aspect in our community is lead by great leaders and innovators.</p>
-									<a href="members.php"><button class="btn rounder-btn btn-info">SEE ALL</button></a>
+									<a href="team.php"><button class="btn rounder-btn btn-info">SEE ALL</button></a>
 								</div>
 							</div>
 							

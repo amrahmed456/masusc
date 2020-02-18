@@ -7,7 +7,7 @@ color:#FFF;
 }
 .presdental .rounded-img{
 width: 250px;
-border-radius: 50%;
+border-radius: 4px;
 height: 250px;
 margin-bottom: 16px;
 border: 3px solid #FFF;
@@ -59,7 +59,8 @@ border:2px solid transparent
 	box-shadow: 1px 5px 12px #CCC;
 	border: 1px solid #FFF;
 	transition:.6s;
-	margin-bottom:15px
+	margin-bottom:15px;
+	border-radius:15px
 }
 .members-div .member-img:hover .member-info{
 	bottom:0px

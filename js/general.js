@@ -25,7 +25,7 @@ $(document).ready(function(){
 		
 			setTimeout(function(){
 				$(".side-navigation .side-list ul li").each(function(){
-				$(this).css("transform","translateX(0px)");
+					$(this).addClass("show");
 				});
 			},200);
 			
@@ -43,7 +43,7 @@ $(document).ready(function(){
 		$(".side-navigation .side-list").css("left","-800px");
 		$("body").css("overflow-y","scroll");
 		$(".side-navigation .side-list ul li").each(function(){
-			$(this).css("transform","translateX(-600px)");
+			$(this).removeClass("show");
 		});
 		setTimeout(function(){
 			$(".side-navigation").css("left","-1500px");

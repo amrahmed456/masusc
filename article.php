@@ -59,7 +59,9 @@
 				</div>
 				<script async src="https://static.addtoany.com/menu/page.js"></script>
 			</div>
-			<?php echo $description; ?>
+			<div class="content-content">
+				<?php echo $content; ?>
+			</div>
 		</div>
 	</div>
 	<!-- end article section -->

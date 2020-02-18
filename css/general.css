@@ -166,16 +166,24 @@ direction:rtl
 }
 .side-navigation .side-list li.selected{
 	background: #e6595c;
-color: white;
+	color: white;
 }
-.side-navigation .side-list li{
+.side-navigation .side-list a li{
 	padding:15px 9px 15px 50px;
 	color: #373737;
-	transition:.4s;
-	transform:translateX(-600px);
 }
-.side-navigation .side-list li:hover{
-	background:#EEE
+.side-navigation .side-list a li.show{
+	transform:translateX(0px) !important
+}
+.side-navigation .side-list a:nth-of-type(1) li{transform:translateX(-600px);transition:.4s;}
+.side-navigation .side-list a:nth-of-type(2) li{transform:translateX(-800px);transition:.5s;}
+.side-navigation .side-list a:nth-of-type(3) li{transform:translateX(-1000px);transition:.6s;}
+.side-navigation .side-list a:nth-of-type(4) li{transform:translateX(-1200px);transition:.7s;}
+.side-navigation .side-list a:nth-of-type(5) li{transform:translateX(-1400px);transition:.8s;}
+.side-navigation .side-list a:nth-of-type(6) li{transform:translateX(-1600px);transition:.9s;}
+.side-navigation .side-list a:nth-of-type(7) li{transform:translateX(-1800px);transition:1s;}
+.side-navigation .side-list a:hover li{
+	background:#EEE !important
 }
 @media(max-width:484px){
 	.side-navigation .side-list{width:70%}
@@ -276,13 +284,7 @@ color: white;
 	position:relative;
 	color:white
 }
-.footer .grass-holder{
-	position:absolute;
-	width:100%;
-	top:-50px;
-	background:url("../imgs/footer-gras.png") repeat-x;
-	height:55px;
-}
+
 .footer a{
 	color:#FFF
 }

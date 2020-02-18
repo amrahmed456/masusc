@@ -2,7 +2,7 @@
 
 /* start main section */
 .main{
-	background:url("../imgs/main-back.jpg") no-repeat center center;
+	background:url("../imgs/main-back.jpg") no-repeat center center fixed;
 	background-size:auto;
 	display:flex;
 	align-items:center;

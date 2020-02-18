@@ -1,6 +1,5 @@
 <!-- start footer section -->
 		<div class="footer padd">
-			<div class="grass-holder"></div>
 		
 			<div class="container">
 				<div class="row">

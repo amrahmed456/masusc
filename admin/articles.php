@@ -305,6 +305,38 @@
 					}
 					
 					
+					// send email to subscribers using php mailer
+					function send_email_to_subscribers($template = 'blog-email.html' , $title , $image , $description){
+						// check if there are subscribers
+						global $db;
+						$stmt = $db->prepare("SELECT email FROM email_subscribe");
+						$stmt->execute();
+						if($stmt->rowCount() > 0){
+							$rows = $stmt->fetchAll();
+							$emailList;
+							foreach($rows as $row){
+								$emailList[] = $row['email'];
+							}
+							// send email to those subscribers
+							// get template body
+							$stmt = $db->prepare("SELECT item_id FROM articles WHERE name = ? AND description = ? AND image = ? LIMIT 1");
+							$stmt->execute(array($title , $description , $image));
+							$row = $stmt->fetch();
+							$id = $row['item_id'];
+							$template = __DIR__ . '/' . $template;
+							$file = file_get_contents($template);
+							$file = str_replace('[[title]]' , $title , $file);
+							$file = str_replace('[[image]]' , $image , $file);
+							$file = str_replace('[[description ]]' , $description , $file);
+							$file = str_replace('[[id ]]' , $id , $file);
+							require 'phpMailer.php';
+							sendEmail($emailList ,'new article releases' ,$file);
+							
+						}else{
+							// no subscribers 
+						}
+					}
+					
 					$count = checkItem('categories' , 'name' , $cat_name);
 					if($count > 0){
 						$stmt = $db->prepare("SELECT cat_id FROM categories WHERE name = ? LIMIT 1;");
@@ -341,6 +373,7 @@
 							$stmt->execute(array($item_name , $description , $cat_id , $image_name , "1"));
 							
 							$msg = "<div class='alert alert-success text-center'>Article Added Successfully</div>";
+							send_email_to_subscribers( "blog-email.html" , $item_name , $image_name , $description);
 							redirect("articles.php", $msg , 5);
 							
 						}
@@ -382,6 +415,7 @@
 							$stmt2->execute(array($item_name , $description , $cat_id , $image_name, "1"));
 							
 							$msg = "<div class='alert alert-success text-center'>Article Added Successfully</div>";
+							send_email_to_subscribers( "blog-email.html" , $item_name , $image_name , $description);
 							redirect("articles.php", $msg , 5);
 						}
 							
